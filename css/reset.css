@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* reset style */
+body, div, span,
+h1, h2, h3, h4, h5, h6,
+header, nav, section, footer,
+table, caption, thead, tbody, tfoot, th, td,
+fieldset, legend, label, input,
+ol, ul, li, dl, dt, dd, p,
+address, a, i, em, strong, small {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+  vertical-align: top;
+}
+
+header, nav, section, article, aside, footer {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}

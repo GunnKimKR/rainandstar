@@ -1,0 +1,76 @@
+body {
+  min-width: 1400px;
+}
+
+body, table, input, select, textarea, button {
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 1.5;
+ font-family: 'NanumGothic', 나눔고딕, 'Malgun Gothic', '맑은 고딕', Gulim, 굴림, sans-serif;
+ color: #000;
+ word-break: break-all;
+}
+
+h1, h2, h3, h4, h5, h6,
+th, strong {
+  font-weight: 700;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blind {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0,0,0,0);
+}
+
+.hide {
+  display: none !important;
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis_line2 {
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: 42px;
+  line-height: 21px;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.tit {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.tit_sm {
+  font-size: 16px;
+}
+
+.ico:before {
+  display: inline-block;
+  overflow: hidden;
+  background: url(../images/sprite.png) no-repeat;
+  vertical-align: top;
+  content: '';
+}
